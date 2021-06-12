@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> login form</title>
+<link rel="stylesheet" type="text/css" href="form.css">
+<style>
+body
+{
+margin:0;
+padding:0;
+background-color:powderblue;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+}
+h1
+{
+	color:white;
+	text-transform:uppercase;
+	font-weight:1500;
+}
+.box{
+width:500px;
+padding:50px;
+position:absolute;
+top:25%;
+left:30%;
+text-align:center;
+background-color: steelblue;
+}
+.box input[type="text"],.box input[type="password"]{
+display:block;
+margin:15px auto;
+border:2px solid blue;
+padding:14px 10px;
+width:200px;
+border-radius:10px;
+}
+.box input[type="submit"]{
+display:block;
+margin:15px auto;
+border:2px solid green;
+padding:10px 5px;
+width:200px;
+border-radius:10px;
+cursor:pointer;
+}
+.box input[type="submit"]hover{
+background:#2ecc71;
+}
+</style>
+</head>
+<body>
+<form class="box" action="" method="post" >
+<h1>Login</h1>
+<input type="text" name="username" placeholder="username"><br>
+<input type="password" name="password" placeholder="password"><br>
+<input type="submit" name="" value="login">
+</form>
+</body>
+</html>
